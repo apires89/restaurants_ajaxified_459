@@ -1,3 +1,7 @@
+
+Restaurant.destroy_all
+
+
 puts 'Creating restaurants...'
 Restaurant.create!({
   name: "Quik Asia",
