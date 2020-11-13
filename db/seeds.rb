@@ -1,9 +1,8 @@
 
-Restaurant.destroy_all
 
 
 puts 'Creating restaurants...'
-Restaurant.create!({
+asia = Restaurant.create!({
   name: "Quik Asia",
   address: "Lisbon, Portugal"
 })
@@ -16,3 +15,8 @@ Restaurant.create!({
   address: "Rossio, Lisbon"
 })
 puts 'Finished!'
+
+
+30.times do
+  Review.create(content: "Great Sucess, Very Nice!", restaurant: asia)
+end

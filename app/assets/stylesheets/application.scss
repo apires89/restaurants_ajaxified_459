@@ -11,3 +11,21 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  width: 56px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  background-color: #7e73ff;
+  margin-right: 2rem;
+}
